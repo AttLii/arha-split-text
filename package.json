@@ -1,0 +1,24 @@
+{
+  "name": "arha-split-text",
+  "version": "1.0.0",
+  "description": "A react component to split passed in `children`-prop into word-spans and each word-span into character-spans. This lets developers do f.e. word / character based animations for text-elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttLii/react-split-text.git"
+  },
+  "keywords": [
+    "react",
+    "split",
+    "text"
+  ],
+  "author": "Atte Liimatainen (atte.liimat@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AttLii/react-split-text/issues"
+  },
+  "homepage": "https://github.com/AttLii/react-split-text#readme"
+}
