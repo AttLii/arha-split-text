@@ -1,4 +1,5 @@
 import { createElement, Fragment, forwardRef, useEffect } from "react";
+import PropTypes from "prop-types"
 
 const SplitText = forwardRef((props, ref) => {
   const {
@@ -112,5 +113,20 @@ SplitText.defaultProps = {
     current: []
   }
 };
+
+SplitText.propTypes = {
+  children: PropTypes.string,
+  className: PropTypes.string,
+  wordClassName: PropTypes.string,
+  charClassName: PropTypes.string,
+  spaceClassName: PropTypes.string,
+  type: PropTypes.string,
+  wordRefs: PropTypes.shape({
+    current: PropTypes.array
+  }),
+  charRefs: PropTypes.shape({
+    current: PropTypes.array
+  })
+}
 
 export default SplitText;

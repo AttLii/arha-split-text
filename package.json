@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AttLii/react-split-text/issues"
   },
-  "homepage": "https://github.com/AttLii/react-split-text#readme"
+  "homepage": "https://github.com/AttLii/react-split-text#readme",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
+  }
 }
