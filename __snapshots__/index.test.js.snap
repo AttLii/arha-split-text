@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SplitText> Matches the snapshot 1`] = `
+<div
+  aria-label="Test"
+  className="c-split-text "
+>
+  <span
+    aria-hidden={true}
+    className="word "
+    style={
+      Object {
+        "display": "inline-block",
+      }
+    }
+  >
+    <span
+      aria-hidden={true}
+      className="char "
+    >
+      T
+    </span>
+    <span
+      aria-hidden={true}
+      className="char "
+    >
+      e
+    </span>
+    <span
+      aria-hidden={true}
+      className="char "
+    >
+      s
+    </span>
+    <span
+      aria-hidden={true}
+      className="char "
+    >
+      t
+    </span>
+  </span>
+</div>
+`;
