@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --config ./jest.config.json",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "jest --config ./jest.config.json --watchAll"
   },
   "repository": {
     "type": "git",
@@ -30,8 +30,11 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "babel-jest": "^25.2.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
     "jest": "^25.2.7",
     "react": "^16.13.1",
-    "react-test-renderer": "^16.13.1"
+    "react-dom": "^16.13.1"
   }
 }

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SplitText> Matches the snapshot 1`] = `
+exports[`SplitText-component renders correctly with foo children-prop 1`] = `
 <div
-  aria-label="Test"
+  aria-label="foo"
   className="c-split-text "
 >
   <span
@@ -17,27 +17,49 @@ exports[`<SplitText> Matches the snapshot 1`] = `
     <span
       aria-hidden={true}
       className="char "
+      key="0"
     >
-      T
+      f
     </span>
     <span
       aria-hidden={true}
       className="char "
+      key="1"
     >
-      e
+      o
     </span>
     <span
       aria-hidden={true}
       className="char "
+      key="2"
     >
-      s
-    </span>
-    <span
-      aria-hidden={true}
-      className="char "
-    >
-      t
+      o
     </span>
   </span>
 </div>
+`;
+
+exports[`SplitText-component renders with no props 1`] = `
+<ForwardRef
+  charClassName=""
+  charRefs={
+    Object {
+      "current": Array [],
+    }
+  }
+  className=""
+  spaceClassName=""
+  type="div"
+  wordClassName=""
+  wordRefs={
+    Object {
+      "current": Array [],
+    }
+  }
+>
+  <div
+    aria-label=""
+    className="c-split-text "
+  />
+</ForwardRef>
 `;
