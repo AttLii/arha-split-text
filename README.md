@@ -1,4 +1,4 @@
-# react-split-text
+# arha-split-text
 
 A react component to split passed in `children`-prop into word-spans and each word-span into character-spans. This lets developers do f.e. word / character based animations for text-elements.
 
@@ -8,7 +8,7 @@ For following React app:
 
 ```
 import React from "react";
-import SplitText from "react-split-text";
+import SplitText from "arha-split-text";
 
 function App() {
   return <SplitText>Edit src/App.js</SplitText>;
