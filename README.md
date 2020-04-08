@@ -20,25 +20,69 @@ export default App;
 an output would be:
 
 ```
-<div aria-label="Edit src/App.js" class="c-split-text ">
-  <span aria-hidden="true" class="word " style="display: inline-block;">
-    <span class="char " aria-hidden="true">E</span>
-    <span class="char " aria-hidden="true">d</span>
-    <span class="char " aria-hidden="true">i</span>
-    <span class="char " aria-hidden="true">t</span>
+<div
+  aria-label="Edit src/App.js"
+  class="c-split-text"
+  style="display: inline-flex; flex-wrap: wrap;"
+>
+  <span
+    aria-hidden="true"
+    class="word"
+    data-word="Edit"
+    style="display: inline-block;"
+  >
+    <span class="char" aria-hidden="true">
+      E
+    </span>
+    <span class="char" aria-hidden="true">
+      d
+    </span>
+    <span class="char" aria-hidden="true">
+      i
+    </span>
+    <span class="char" aria-hidden="true">
+      t
+    </span>
+    <span aria-hidden="true" class="space" style="display: inline-block;">
+      &nbsp;
+    </span>
   </span>
-  <span aria-hidden="true" class="space ">&nbsp;</span>
-  <span aria-hidden="true" class="word " style="display: inline-block;">
-    <span class="char " aria-hidden="true">s</span>
-    <span class="char " aria-hidden="true">r</span>
-    <span class="char " aria-hidden="true">c</span>
-    <span class="char " aria-hidden="true">/</span>
-    <span class="char " aria-hidden="true">A</span>
-    <span class="char " aria-hidden="true">p</span>
-    <span class="char " aria-hidden="true">p</span>
-    <span class="char " aria-hidden="true">.</span>
-    <span class="char " aria-hidden="true">j</span>
-    <span class="char " aria-hidden="true">s</span>
+  <span
+    aria-hidden="true"
+    class="word"
+    data-word="src/App.js"
+    style="display: inline-block;"
+  >
+    <span class="char" aria-hidden="true">
+      s
+    </span>
+    <span class="char" aria-hidden="true">
+      r
+    </span>
+    <span class="char" aria-hidden="true">
+      c
+    </span>
+    <span class="char" aria-hidden="true">
+      /
+    </span>
+    <span class="char" aria-hidden="true">
+      A
+    </span>
+    <span class="char" aria-hidden="true">
+      p
+    </span>
+    <span class="char" aria-hidden="true">
+      p
+    </span>
+    <span class="char" aria-hidden="true">
+      .
+    </span>
+    <span class="char" aria-hidden="true">
+      j
+    </span>
+    <span class="char" aria-hidden="true">
+      s
+    </span>
   </span>
 </div>
 ```
